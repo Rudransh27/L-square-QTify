@@ -6,7 +6,7 @@
     function Section({ title }) {
     const [albums, setAlbums] = useState([]);
     const [showAll, setShowAll] = useState(false);
-    const [itemsPerRow, setItemsPerRow] = useState(7);
+    // const [itemsPerRow, setItemsPerRow] = useState(7);
 
     const gridRef = useRef(null);
 
@@ -31,7 +31,7 @@
         const gap = 20; // grid gap
 
         const count = Math.floor(containerWidth / (cardWidth + gap));
-        setItemsPerRow(count || 1);
+        // setItemsPerRow(count || 1);
         };
 
         calculateItems();
