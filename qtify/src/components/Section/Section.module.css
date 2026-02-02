@@ -1,0 +1,31 @@
+.section {
+  padding: 20px 40px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  color: white;
+}
+
+/* BUTTON */
+.toggleBtn {
+  background: none;
+  border: none;
+  color: #34c94b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* GRID LAYOUT */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(159px, 1fr));
+  gap: 20px;
+}
